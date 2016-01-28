@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="one.css">
+    <script data-require="angular.js@1.3.10" data-semver="1.3.10" src="https://code.angularjs.org/1.3.10/angular.js"></script>
+    <script type="text/javascript" src="one.js"></script>
+  </head>
+
+  <body ng-app="myApp">
+    <h1>Challenge One</h1>
+    <div ng-controller="myCtrl">
+      <div>
+        <div ng-repeat="month in months" class="{{month.season}}">
+          <p>{{month.english}}</p>
+          <p>{{month.french}}</p>
+          <p>{{month.days}}</p>
+          <p>{{month.season}}</p>
+
+        </div> 
+      </div>
+    </div>
+  </body>
+
+</html>
