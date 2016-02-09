@@ -1,0 +1,151 @@
+body {
+	font-family: 'Lora', serif;
+}
+
+.landing {
+	width:421px;
+	margin:170px auto 0;
+}
+
+.logo {
+	margin-bottom:20px;
+}
+
+.logo img {
+	float: left;
+	width: 35px;
+	margin-left: 17%;
+}
+
+.logo h1 {
+	color:#6A0900;
+	float:left;
+	margin:-5px 0 0 10px;
+	font-size: 3em;
+}
+
+.instaForm { width: 400px; }
+
+.landing input[type="text"] {
+	border: 1px solid #979797;
+	width: 400px;
+	margin: 10px auto 0;
+	height: 35px;
+	padding: 0 10px;
+	font-size: 1.2em;
+}
+
+input[type="text"]:focus {
+	/*border: 1px solid #5049BA;*/
+	outline: none;
+}
+
+.landing input[type="submit"] {
+	border: 1px solid #979797;
+	border-radius: 5px;
+	font-family: Athelas-Regular;
+	font-size: 1em;
+	color: #5E5E5E;
+	line-height: 27px;
+	background: #fff;
+	padding: 1px 12px;
+	margin: 10px 0 0 0;
+	float: right;
+}
+
+.navbar {
+	background: #FAFAFA;
+	border-bottom: 1px solid #979797;
+}
+.navbar-header {
+	width: 225px;
+	margin: 18px 0 15px 100px;
+	float: left;
+	cursor: pointer;
+}
+
+.navbar-header h2 {
+	float: left;
+	margin: -2px 0 0 0;
+	color: #6A0900;
+}
+.searchBar {
+	width: 300px;
+	position: relative;
+	margin: 18px 0 0 30px;
+	padding: 0;
+	float: left;
+}
+
+.navbar input[type="text"] {
+	border: 1px solid #979797;
+	width: 300px;
+	height: 30px;
+	padding: 0 10px;
+	font-size: 1em;
+	margin: 0;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.searchButton {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	background: #F5F5F5;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	width: 32px;
+	height: 28px;
+	border-left: 1px solid #979797;
+	cursor: pointer;
+}
+.navbar input[type="image"] {
+	width: 15px;
+	margin: 6px 0 0 8px;
+}
+
+
+
+
+.messages {
+	margin-bottom: 40px;
+	font-size: 1.1em;
+	margin-left: 15px;
+}
+.query { color: #6A0900; }
+.photo { 
+	width: 100%;
+	margin-bottom: 60px;
+}
+.error {
+	color: #D00000;
+	font-style: italic;
+}
+.landingError { margin: 16px 0 0 10px; }
+.details {
+	position: absolute;
+	bottom: 30px;
+	width: 89%;
+	display: none;
+}
+.details img {
+	width: 20px;
+}
+.actions {
+	float: right;
+}
+.heart {
+	margin-top: -1px;
+}
+.insta img {
+	width: 18px;
+}
+.download img {
+	width: 15px;
+	margin-right: 7px;
+}
+
+.instaResult:hover > .details {
+  display:block;
+}

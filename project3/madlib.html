@@ -4,10 +4,18 @@
     
     <script data-require="angular.js@1.3.10" data-semver="1.3.10" src="https://code.angularjs.org/1.3.10/angular.js"></script>
     <script type="text/javascript" src="madlib.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
- <body ng-app="myApp" ng-controller="oneController">
- 	<div class="header"><img src ="mad-lib-happy-face.png" alt="smile"/>
- 		<img src= "ng-mad-libs-logo.png" alt="logo"/></div>
+ <body ng-app="myApp">
+ 	<div class="container ng-controller=oneController">
+ 		<div class="header">
+ 	<div class="smiley"><img src ="mad-lib-happy-face.png" alt="smile"/></div>
+ 	<div class="title">
+ 		<img src= "ng-mad-libs-logo.png" alt="logo"/>
+ 		<h1>Automate This!</h1>
+ 	</div>
+ </div>
+ <div style="clear:both;"></div>
 
  		<div class="input">
 <p><input ng-model="femaleName" placeholder="female name"/>
